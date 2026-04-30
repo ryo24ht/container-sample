@@ -2,8 +2,8 @@ version: 0.2
 
 env:
   secrets-manager:
-      DOCKER_USER: "dockerhub/credentials:DOCKERHUB_USERNAME"
-      DOCKER_TOKEN: "dockerhub/credentials:DOCKERHUB_TOKEN"
+      DOCKER_USER: "cloudtech/cicd/docker_pat:DOCKERHUB_USERNAME"
+      DOCKER_TOKEN: "cloudtech/cicd/docker_pat:DOCKERHUB_TOKEN"
   variables:
     ECR_REPOSITORY: 286947500828.dkr.ecr.ap-northeast-1.amazonaws.com/test-ecr
 
